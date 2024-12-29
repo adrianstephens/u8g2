@@ -1,0 +1,25 @@
+{
+	"name": "u8g2",
+	"authors": {
+		"name": "oliver <olikraus@gmail.com",
+		"maintainer": true
+	},
+	"frameworks": "*",
+	"platforms": "*",
+	"build": {
+		"includeDir": "cppsrc",
+		"srcFilter": [
+			"+<cppsrc/*>",
+			"+<csrc/*>"
+		],
+		"flags": [
+			"-Icppsrc",
+			"-Icsrc"
+		]
+	},
+	"includeDir": "cppsrc",
+	"headers": [
+		"U8x8lib.h",
+		"U8g2lib.h"
+	]
+}
